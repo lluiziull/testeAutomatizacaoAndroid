@@ -1,0 +1,8 @@
+ 
+ para testar arquivo especifico:
+
+    -  npx codeceptjs run test\studante_test.js
+ 
+ para gerar um reporte: 
+
+    - npx codeceptjs run test\studante_test.js --reporter mochawesome
