@@ -15,10 +15,20 @@ Scenario('teste add aluno',  ({I}) => {
     const nome = getNome.getNome();
     const code = getCode.getCode();
 
-    //homePage.preencherEstudante(varNomeGerador, varCodigoGerador);
     homePage.preencherEstudante(nome, code);
     homePage.procurarEstudante(nome, code);
+
+
+    /*I.touchPerform([
+            {
+            action: 'longPress',
+            Option:{
+                x: 500, y: 1300}},
+            {    
+            action: 'moveTo',
+            Option:{
+                x: 500, y: 300}},
+        {action: 'release'}
+    ])
+    */
 });
-
-
-
